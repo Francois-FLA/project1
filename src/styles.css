@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+h1 {
+    font-size: 1rem;
+}
+
+@media (min-width: 350px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 450px) {
+    #infos2 {
+        width: 30%;
+        
+    }
+}
+
+
+@media (min-width: 650px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 750px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+}
+
+@media (min-width: 850px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+
+
+
+#infos1 {
+    margin-right: 5%;
+}
+
+
+#error {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#block1 {
+    height: auto;
+    width: 100%;
+    display: inline-g;
+}
+
+
+
+.sectionTitle {
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+hr {
+    margin:0;
+    padding:0; 
+    border: 0; 
+    height:1px;    
+}
+
+#btnSection {    
+    width: 100%;    
+}
+
+.copyText {
+        font-style: italic;
+}
+
+.botBut {
+    margin-right:5px;
+}
